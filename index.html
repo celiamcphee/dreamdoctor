@@ -1,92 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Doctor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <nav>
+    <nav class="navbar is-link mcphee-backgroundcolor" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/logo.png">
+            </a>
 
-    </nav> 
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-<!-- hero article -->
-<article> 
-<img src="https://upload.wikimedia.org/wikipedia/en/9/98/CharlesMcPhee.jpg" alt="">
-<h1>
-    Making Sense of Your Dreams 
-</h1>
-</article>
-
-<!-- Dream Doctor Story -->
-<article> 
-    <header>
-        <img src="https://www.dreamdoctor.com/images/M_images/CM_outside.jpg" alt="">
-        <h2>
-           The Dream Doctor Story 
-        </h2>
-        <p>
-            Charles launched dreamdoctor.com in 1997, making it one of the longest running websites dedicated to dreams and their interpretation. He was the former Director of the Sleep Apnea Patient Treatment Program at the Sleep Disorders Center of Santa Barbara, California; the former coordinator of the Sleep Disorders Center at Cedars-Sinai Medical Center in Los Angeles, CA, and the former coordinator of the sleep research laboratory at the National Institute of Mental Health in Bethesda, MD.  Charles was diagnosed with ALS (Lou Gehrig's disease) in June of 2006 and died in May of 2011.
-        </p>
-           </header> 
-</article>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#theperson">
+                    Charles McPhee
+                </a>
 
 
-<!-- Dream Dictionary article -->
-<article> 
-   <header>
-<img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/dream-dictionary.png" alt="">
-<h2>
-Dream Dictionary
-</h2>
-<p>
-    Brown our dictionary of dream symbols for their meaning, their origin, and how they work in context.
-</p>
-   </header> 
 
-</article>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Explore
+                    </a>
 
-<!-- Dreamcast -->
-<article> 
-    <header>
-<img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/dream-podcasts.png" alt="">
-<h2>
-    Dreamcast
-</h2>
-<p>
-    Listen to exclusive Dreamcasts about dreams, dream symbols, dream interpretation, occurences during sleep and sleep disorders.
-</p>
-   </header> 
-</article>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Dream Dictionary
+                        </a>
+                        <a class="navbar-item">
+                            Dreamcasts
+                        </a>
+                        <a class="navbar-item">
+                            DIY
+                        </a>
 
-<!-- Dream Forum -->
-<article> 
-    <header>
-        <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/dream-forum.png" alt="">
-        <h2>
-           Dream Forum 
-        </h2>
-        <p>
-           Post your dreams for our members to interpret, explore dreams like yours, or help others understand their dreams.  
-        </p>
-           </header> 
-</article>
+                    </div>
+                </div>
+            </div>
 
-<!-- DIY article -->
-<article> 
-    <header>
-        <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/diy.png" alt="">
-        <h2>
-           DIY Dream Interpretation
-        </h2>
-        <p>
-            Use our exlcusive dream and sleep resources to explore and understand your dreams and sleep issues.
-        </p>
-           </header> 
-</article>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
 
+
+                            Log in/ Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="container">
+        <!-- hero article -->
+        <article class="section">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/98/CharlesMcPhee.jpg" alt="">
+            <h1>
+                dreamdoctor
+            </h1>
+            <h3>
+                making sense of your dreams
+            </h3>
+        </article>
+
+        <!-- Dream Doctor Story -->
+        <article id="theperson">
+            <header>
+                <img src="https://www.dreamdoctor.com/images/M_images/CM_outside.jpg" alt="">
+                <h2>
+                    The Dream Doctor Story
+                </h2>
+                <p>
+                    Charles launched dreamdoctor.com in 1997, making it one of the longest running websites dedicated to
+                    dreams and their interpretation. He was the former Director of the Sleep Apnea Patient Treatment
+                    Program at the Sleep Disorders Center of Santa Barbara, California; the former coordinator of the
+                    Sleep Disorders Center at Cedars-Sinai Medical Center in Los Angeles, CA, and the former coordinator
+                    of the sleep research laboratory at the National Institute of Mental Health in Bethesda, MD. Charles
+                    was diagnosed with ALS (Lou Gehrig's disease) in June of 2006 and died in May of 2011.
+                </p>
+            </header>
+        </article>
+
+
+        <!-- Dream Dictionary article -->
+        <article class="section">
+            <header>
+                <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/dream-dictionary.png"
+                    alt="">
+                <h2>
+                    Dream Dictionary
+                </h2>
+                <p>
+                    Brown our dictionary of dream symbols for their meaning, their origin, and how they work in context.
+                </p>
+            </header>
+
+        </article>
+
+        <!-- Dreamcast -->
+        <article class="section">
+            <header>
+                <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/dream-podcasts.png" alt="">
+                <h2>
+                    Dreamcast
+                </h2>
+                <p>
+                    Listen to exclusive Dreamcasts about dreams, dream symbols, dream interpretation, occurences during
+                    sleep and sleep disorders.
+                </p>
+            </header>
+        </article>
+
+        <!-- Dream Forum -->
+        <article class="section">
+            <header>
+                <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/dream-forum.png" alt="">
+                <h2>
+                    Dream Forum
+                </h2>
+                <p>
+                    Post your dreams for our members to interpret, explore dreams like yours, or help others understand
+                    their dreams.
+                </p>
+            </header>
+        </article>
+
+        <!-- DIY article -->
+        <article class="section">
+            <header>
+                <img src="https://www.dreamdoctor.com/templates/dreamdoctor/images/services/diy.png" alt="">
+                <h2>
+                    DIY Dream Interpretation
+                </h2>
+                <p>
+                    Use our exlcusive dream and sleep resources to explore and understand your dreams and sleep issues.
+                </p>
+            </header>
+        </article>
+    </main>
 
 </body>
+
 </html>
